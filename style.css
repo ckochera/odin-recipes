@@ -1,0 +1,37 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    
+}
+
+h1, h2, h3, h4 {
+    color: #525252;
+    background-color: #ccf2ff;
+    text-align: center;
+}
+
+.description {
+    background-color: #f1ecf1;
+    text-align: center;
+}
+
+.recipe-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.ingredient-list {
+    text-align: center;
+    background-color:aliceblue;
+}
+
+.ingredientUL, .stepsOL {
+    display: inline-block;
+    text-align: left;
+}
+
+.steps-container {
+    text-align: center;
+    background-color: #cce6ff;
+}
