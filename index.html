@@ -4,14 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
-    <link rel="stylesheet" href="./style.css" />
+    <style>
+        
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container {
+    background-color: antiquewhite;
+    border: 1px black solid;
+    border-radius: 5%;
+    padding: 100px 50px;
+    margin: 5px;
+    display: auto;
+    line-height: 1.5rem;
+}
+
+.homepage-title {
+    color: brown;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.recipe-list {
+    font-size: 25px; 
+    font-weight: 100;
+    line-height: 2.5rem;
+    padding-top: 20px;
+    padding-left: 0;
+    text-align: center;
+    list-style-position: inside;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+    </style>
+
 </head>
 <body>
-    <h1>Odin Recipes</h1>
+    <div class="container">
+    <span class="homepage-title"><h1>Odin Recipes</h1></span>
+    <div class="recipe-list">
     <ul>
     <li><a href="recipes/overnightwhitebread.html">Overnight White Bread</a></li>
     <li><a href="recipes/milkbuns.html">Milk Buns</a></li>
     <li><a href="recipes/brownedbutterchocolatechipcookies.html">Browned Butter Chocolate Chip Cookies</a></li>
     </ul>
+</div>
+    </div>
 </body>
 </html>
